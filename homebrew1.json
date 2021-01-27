@@ -75,6 +75,62 @@
       "languageTags": ["AB", "CS", "DR"],
       "damageTags": ["P", "I"],
       "miscTags": ["MW", "RCH"]
+    },
+    {
+      "name": "Sharkfeather Reef Shark",
+      "page": "0",
+      "size": "Medium",
+      "type": "Beast",
+      "alignment": ["U"],
+      "ac": [{ "ac": 12, "from": ["Natural Armor"] }],
+      "hp": { "average": 9, "formula": "2d8" },
+      "speed": { "swim": "45" },
+      "str": 14,
+      "dex": 13,
+      "con": 13,
+      "int": 1,
+      "wis": 10,
+      "save": {},
+      "skill": { "perception": "+2" },
+      "senses": ["blindsight 30 ft."],
+      "passive": 10,
+      "immune": [],
+      "conditionImmune": [],
+      "languages": [],
+      "trait": [
+        {
+          "name": "Pack Tactics",
+          "entries": [
+            "the sharkfeather reef shark has advantage on an attack roll against a creature if at least one of the sharkfeather reef shark's allies is within 5 feet of the creature and the ally isn't incapacitated ."
+          ]
+        },
+        {
+          "name": "Water Breathing",
+          "entries": [
+            "the sharkfeather reef shark can breathe only underwater."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Bite",
+          "entries": [
+            "<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 5 (1d6 + 2) piercing damage."
+          ]
+        }
+      ],
+      "reaction": [],
+      "legendary": [],
+      "legendaryGroup": null,
+      "environment": [],
+      "soundClip": null,
+      "traitTags": ["Pack Tactics", "Water Breathing"],
+      "senseTags": null,
+      "actionTags": ["Bite"],
+      "damageTags": null,
+      "miscTags": null,
+      "conditionInflict": null,
+      "conditionInflictLegendary": null
     }
   ]
 }
