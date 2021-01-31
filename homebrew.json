@@ -24,7 +24,7 @@
       "alignment": ["U"],
       "ac": [{ "ac": 11, "from": ["Natural Armor"] }],
       "hp": { "average": 9, "formula": "2d8" },
-      "speed": { "swim": "45" },
+      "speed": { "swim": 45 },
       "str": 14,
       "dex": 13,
       "con": 13,
@@ -82,18 +82,15 @@
       "alignment": ["L", "E"],
       "ac": [{ "ac": 11, "from": ["Natural Armor"] }],
       "hp": { "average": 9, "formula": "2d8" },
-      "speed": { "swim": "40" },
+      "speed": { "swim": 40, "walk": 25 },
       "str": 13,
       "dex": 11,
       "con": 12,
       "int": 12,
       "wis": 13,
-      "save": {},
       "skill": { "perception": "+5" },
       "senses": ["darkvision 120 ft."],
       "passive": 10,
-      "immune": [],
-      "conditionImmune": [],
       "languages": ["Sahuagin"],
       "trait": [
         {
@@ -163,9 +160,11 @@
       "colLabels": ["d100", "Item"],
       "colStyles": ["col-2 text-center", "col-10"],
       "rows": [
-        ["01-50", "A discarded or otherwise forgotten piece of attire belonging to a suspect"],
+        [
+          "01-50",
+          "A discarded or otherwise forgotten piece of attire belonging to a suspect"
+        ],
         ["51-60", "Something Something"]
-       
       ],
       "name": "Dirks testTable",
       "page": 144,
