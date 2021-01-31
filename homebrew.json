@@ -137,7 +137,7 @@
         {
           "name": "Dagger",
           "entries": [
-            "{@atk mw,rw} {@hit 3} +3 to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage in melee, or {@h}3 ({@damage 1d4 + 1}) piercing damage at range."
+            "{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage in melee, or {@h}3 ({@damage 1d4 + 1}) piercing damage at range."
           ]
         }
       ],
@@ -155,6 +155,22 @@
       "senseTags": ["SD"],
       "actionTags": ["Bite", "Claws", "Spear", "Dagger"],
       "damageTags": ["P", "S"]
+    }
+  ],
+  "table": [
+    {
+      "caption": "Test table",
+      "colLabels": ["d100", "Item"],
+      "colStyles": ["col-2 text-center", "col-10"],
+      "rows": [
+        ["01-50", "A discarded or otherwise forgotten piece of attire belonging to a suspect"],
+        ["51-60", "Something Something"]
+       
+      ],
+      "name": "Dirks testTable",
+      "page": 144,
+      "source": "D5H",
+      "type": "table"
     }
   ]
 }
